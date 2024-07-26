@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color:white;
+}
+
+.nav{
+    position: fixed;
+    background-color: black;
+    left:0;
+    top:0;
+    height:100%;
+    width:10px;
+    transition: height 0.3s;
+    overflow-y:hidden;
+    z-index: 1;
+}
+.nav:hover{
+    width:10%;
+}
+.nav-tog{
+    font-size: 30px;
+    color: whitesmoke;
+    padding:20px;
+    text-align: center;
+    cursor:context-menu;
+}
+.nav-links{
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+
+}
+.nav-links a{
+    padding:15px;
+    text-align: center;
+    color:white;
+    display: block;
+    
+}
+.nav-links a:hover{
+    color: darkgoldenrod;
+}
+
+.content{
+    margin-left: 40px;
+    padding: 25px;
+    background-color:white;
+
+}
+.nav.open +.content{
+    margin-left: 130px;
+}
+.mainh{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.mainp{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#about,#contact{
+    margin-top: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    color: #666;
+}

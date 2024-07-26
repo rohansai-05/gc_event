@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <h1 class="mainh">GAME CHANGERS</h1>
+        <p class="mainp">Add a new user</p>
+
+        <div class="box user">
+            <h1>ADD USER</h1>
+            <form action="/addUser" method="POST">
+                <div class="form-group">
+                    <label for="user-username">Username</label>
+                    <input type="text" id="user-username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="user-pwd">Password</label>
+                    <input type="password" id="user-pwd" name="password">
+                </div>
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

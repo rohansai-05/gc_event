@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+   
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.mainh {
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainp {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+    color: #555;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input[type="text"], .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus, .form-group input[type="password"]:focus {
+    border-color: #888;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box button:hover {
+    background-color: #555;
+}

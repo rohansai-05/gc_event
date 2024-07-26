@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <h1 class="mainh">GAME CHANGERS</h1>
+        <p class="mainp">Add a new admin user</p>
+
+        <div class="box admin">
+            <h1>ADD ADMIN</h1>
+            <form action="/addAdmin" method="POST">
+                <div class="form-group">
+                    <label for="admin-username">Username</label>
+                    <input type="text" id="admin-username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="admin-pwd">Password</label>
+                    <input type="password" id="admin-pwd" name="password">
+                </div>
+                <button type="submit">Add Admin</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

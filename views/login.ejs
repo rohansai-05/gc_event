@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <h1 class="mainh">GAME CHANGERS</h1>
+        <p class="mainp">An online ticketing platform for events.</p>
+
+        <div class="box-container">
+            <div class="box admin">
+                <h1>ADMIN LOGIN</h1>
+                <form action="/adminsign" method="POST">
+                    <div class="form-group">
+                        <label for="admin-username">Username</label>
+                        <input type="text" id="admin-username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="admin-pwd">Password</label>
+                        <input type="password" id="admin-pwd" name="password">
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <a href="/admin">Add Admin</a>
+            </div>
+            <div class="box organiser">
+                <h1>ORGANISER LOGIN</h1>
+                <form action="/organisersignin" method="POST">
+                    <div class="form-group">
+                        <label for="org-username">Username</label>
+                        <input type="text" id="organiser-username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="org-pwd">Password</label>
+                        <input type="password" id="organiser-pwd" name="password">
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <a href="/organiser">Add Organizer</a>
+            </div>
+            <div class="box user">
+                <h1>USER LOGIN</h1>
+                <form action="/usersignin" method="POST">
+                    <div class="form-group">
+                        <label for="user-username">Username</label>
+                        <input type="text" id="user-username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-pwd">Password</label>
+                        <input type="password" id="user-pwd" name="password">
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <a href="/user">Add User</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

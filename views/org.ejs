@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <h1 class="mainh">GAME CHANGERS</h1>
+        <p class="mainp">An online ticketing platform for events.</p>
+
+        <div class="box-container">
+            <div class="box organiser">
+                <h1>ADD ORGANIZER</h1>
+                <form action="/addOrganiser" method="POST">
+                    <div class="form-group">
+                        <label for="organiser-username">Username</label>
+                        <input type="text" id="organiser-username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="organiser-pwd">Password</label>
+                        <input type="password" id="organiser-pwd" name="password">
+                    </div>
+                    <button type="submit">Add Organizer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
